@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#FFFFFF">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:gravity="center_vertical" android:padding="8dp">
+  <Button android:id="@+id/portal_close" android:layout_width="72dp" android:layout_height="wrap_content" android:minHeight="44dp" android:minWidth="0dp" android:padding="8dp" android:background="@drawable/portal_secondary" android:text="返回" android:textColor="#147D70" android:textSize="14sp" android:textAllCaps="false" android:maxLines="1"/>
+  <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:layout_marginHorizontal="12dp" android:text="教务导入" android:textColor="#23332F" android:textStyle="bold" android:textSize="17sp" android:maxLines="1" android:ellipsize="end"/>
+  <Button android:id="@+id/portal_mode" android:layout_width="96dp" android:layout_height="wrap_content" android:minHeight="44dp" android:minWidth="0dp" android:padding="8dp" android:background="@drawable/portal_secondary" android:text="电脑模式" android:textColor="#147D70" android:textSize="14sp" android:textAllCaps="false" android:maxLines="1"/>
+ </LinearLayout>
+ <TextView android:id="@+id/portal_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp" android:paddingVertical="8dp" android:textColor="#566E66" android:textSize="12sp" android:maxLines="4" android:ellipsize="end" android:text="在校方页面登录，再进入个人课表。"/>
+ <ProgressBar android:id="@+id/portal_progress" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="3dp" android:indeterminate="false" android:max="100" android:progressTint="#147D70"/>
+ <WebView android:id="@+id/portal_web" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="80dp" android:gravity="center_vertical" android:padding="12dp" android:background="#F6FAF8">
+  <Button android:id="@+id/portal_course" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="56dp" android:minWidth="0dp" android:padding="10dp" android:layout_marginEnd="10dp" android:background="@drawable/portal_secondary" android:text="① 个人课表" android:textColor="#147D70" android:textSize="14sp" android:textAllCaps="false" android:maxLines="2"/>
+  <Button android:id="@+id/portal_read" android:layout_width="0dp" android:layout_weight="1.35" android:layout_height="wrap_content" android:minHeight="56dp" android:minWidth="0dp" android:padding="10dp" android:background="@drawable/portal_primary" android:text="② 读取课表" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp" android:textAllCaps="false" android:maxLines="2"/>
+ </LinearLayout>
+</LinearLayout>

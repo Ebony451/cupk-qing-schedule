@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/widget_bg">
+ <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="轻课表 · 今日" android:textColor="#147D70" android:textStyle="bold" android:textSize="16sp"/>
+ <TextView android:id="@+id/widget_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="打开轻课表导入课程" android:textColor="#253E38" android:textSize="14sp" android:paddingTop="10dp" android:maxLines="8"/>
+</LinearLayout>

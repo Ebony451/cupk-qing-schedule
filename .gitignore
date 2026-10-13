@@ -1,0 +1,8 @@
+/tmp/
+/private/
+/out/
+*.log
+*.jks
+*.keystore
+.env
+__pycache__/
